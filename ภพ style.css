@@ -1,0 +1,157 @@
+/* basic elements */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(230, 248, 224);
+    font-family: sans-serif;
+    line-height: 2em;
+}
+
+header h1 {
+    font-variant: small-caps;
+    color: white;
+    background-color: blue;
+    line-height: 1.2em;
+    letter-spacing: 1.2em;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+header h2 {
+    font-size: 7em;
+    color: rgb(25, 111, 61);
+    line-height: 1em;
+    width: 50%;
+    margin-left: 30px;
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    border-style: dotted;
+    border-color: red;
+    border-width: thin;
+    padding: 0 20px 0 20px;
+}
+
+a {
+    border-style: dotted;
+    border-color: red;
+    border-width: thin;
+    color: black;
+}
+
+
+/* specific divs */
+
+.page-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------intro-------------------------*/
+
+.intro {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.summary p:first-child {
+    font-size: 1.5em;
+    font-style: italic;
+    color: black;
+    padding: 25px 100px 25px 800px;
+    margin-top: -400px;
+    display: block;
+}
+
+.summary p {
+    font-size: 1.5em;
+    font-style: italic;
+    color: black;
+    margin: 170px 30px 0 30px;
+}
+
+.concepts {
+    display: block;
+    border-style: dashed;
+    border-width: thin;
+    width: 60%;
+    background-color: white;
+    color: black;
+    padding: 1px 10px 1px 10px;
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.concepts h3 {
+    /* font-size: 2em;
+    font-weight: lighter; */
+    color: black;
+    padding: 8px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+
+/*---------------------------------------------------------*/
+
+.explanation {
+    color: black;
+    padding: 10px;
+    margin-top: -35px;
+}
+
+.challenges {
+    display: block;
+    border-style: dashed;
+    border-width: thin;
+    width: 55%;
+    background-color: rgb(153, 230, 255);
+    color: black;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.deeplearning {
+    float: right;
+    display: block;
+    width: 36%;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin-top: -800px;
+    margin-right: 20px;
+}
+
+.applying {
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
